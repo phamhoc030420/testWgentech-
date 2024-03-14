@@ -1,0 +1,111 @@
+.session {
+    display: flex;
+    padding: 0 calc(var(--ratio) * 195px);
+    align-items: center;
+}
+
+.session__img {
+    margin-right: calc(var(--ratio) * 60px);
+}
+
+.session__content__lane {
+    width: calc(var(--ratio) * 94px);
+    height: calc(var(--ratio) * 7px);
+    background-color: #E74040;
+
+}
+
+.session__content__title {
+    font-size: 40px;
+    margin: 0;
+    margin: calc(var(--ratio) * 35px) 0;
+}
+
+.session__content__main {
+    display: flex;
+    font-size: 14px;
+    line-height: 20px;
+    max-width: calc(var(--ratio) * 351px);
+}
+
+.session__content__button {
+    display: flex;
+    align-items: center;
+    margin-top: calc(var(--ratio) * 35px);
+}
+
+.session__content__button_title {
+    font-size: 14px;
+    color: #96BB7C;
+    margin-right: calc(var(--ratio) * 10px);
+}
+
+.session__content__button__icon {
+    width: calc(var(--ratio) * 8.62x);
+    height: calc(var(--ratio) * 16px);
+}
+
+.session__more {
+    padding: 0 calc(var(--ratio) * 195px);
+}
+
+.session__more__name {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #96BB7C;
+}
+
+.session__more__title {
+    margin: calc(var(--ratio) * 10px) 0;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+    color: #252B42;
+}
+
+.session__more__content {
+    margin: 0;
+    width: calc(var(--ratio) * 469px);
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #737373;
+}
+.session__more__card{
+    margin-top: calc(var(--ratio) * 112px);
+    display: flex;
+    justify-content:space-between;
+   
+}
+.session__more__card__item{
+    width: calc(var(--ratio) * 238px);
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 4px 11px 7px 0px #F0F0F0;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.session__more__card__item > img{
+    width: calc(var(--ratio) * 238px);
+}
+.session__more__card__item h4{
+    margin-top: 30px;
+    font-size: 16px;
+}
+.session__more__card__item p{
+    margin: 10px 0;
+    font-size: 12px;
+}
+.session__more__card__item__icon img{
+    width: calc(var(--ratio) * 24px);
+    height: calc(var(--ratio) * 24px);
+    margin-right: calc(var(--ratio) * 20px);
+    margin-bottom: calc(var(--ratio) * 30px);
+    object-fit: cover;
+}
+.session__more__card__item__icon img:last-child{
+    margin-right: 0;
+}
+
