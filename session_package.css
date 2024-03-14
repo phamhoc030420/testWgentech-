@@ -2,10 +2,14 @@
     display: flex;
     padding: 0 calc(var(--ratio) * 195px);
     align-items: center;
+    margin-top: calc(var(--ratio) * 92px);
 }
 
 .session__img {
     margin-right: calc(var(--ratio) * 60px);
+    object-fit: cover;
+    width: calc(var(--ratio) * 520px);
+    height: calc(var(--ratio) * 549px);
 }
 
 .session__content__lane {
@@ -81,11 +85,11 @@
 }
 .session__more__card__item{
     width: calc(var(--ratio) * 238px);
-    overflow: hidden;
     border-radius: 20px;
     box-shadow: 4px 11px 7px 0px #F0F0F0;
     text-align: center;
     margin-bottom: 100px;
+    overflow: hidden;
 }
 .session__more__card__item > img{
     width: calc(var(--ratio) * 238px);

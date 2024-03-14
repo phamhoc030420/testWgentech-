@@ -10,10 +10,11 @@
     height: calc(var(--ratio) * 60px);
   }
   .header__content{
-    margin: 0 calc(var(--ratio) * 59px);
     display: flex;
     align-items: center;
-    padding:0 calc(var(--ratio) * 195px) ;
+    background-color: #FFF2F3;
+    padding: calc(var(--ratio) * 16px) calc(var(--ratio) * 59px);
+    padding-left:  calc(var(--ratio) * 195px);
   }
 .header__content__title{
     font-size: 24px;
@@ -38,6 +39,9 @@
 .header__content__item__nav__text:last-child{
     margin-right:0;
 }
+.header__content__item__button{
+    align-items: center;
+}
 .header__content__item__button__text{
     color: #96BB7C;
     padding: 17px 0;
@@ -52,7 +56,6 @@
     color: white;
 }
 .banner{
-    height: calc(var(--ratio) * 682px);
     background-color: #FFF2F3;
     padding-left: calc(var(--ratio) * 132px) ;
     display: flex;

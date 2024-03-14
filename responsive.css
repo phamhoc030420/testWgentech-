@@ -1,0 +1,96 @@
+@media (max-width: 1260px) {
+    .header__content__item__nav {
+      margin-right: calc(var(--ratio) * 100px);
+    }
+    .session__more__card {
+      display: block;
+      margin-top: 30px;
+    }
+    .session__more__card__item {
+      margin-top: 30px !important;
+      margin: 0 auto;
+    }
+  }
+  @media (max-width: 1130px) {
+    .header__content {
+      display: block;
+      align-items: center;
+      background-color: #fff2f3;
+    }
+    .header__content {
+      margin: 0;
+    }
+    .banner {
+      display: block;
+    }
+    .session {
+      display: block;
+    }
+    .header__content__item__button__join, .header__content__item__button__text__outline{
+        width: max-content;
+        padding: 0 4px;
+    }
+  }
+  @media (max-width: 767px) {
+    .header__content__item,
+    .header__content__item__nav,
+    .header__content__item__button {
+      display: block;
+    }
+    .header {
+      padding: 0;
+    }
+    .header__content {
+      padding: 0 calc(var(--ratio) * 132px);
+    }
+    .header__content {
+      margin: 0;
+    }
+    .banner__right__image {
+      width: calc(var(--ratio) * 482px);
+      height: calc(var(--ratio) * 504px);
+    }
+    .session {
+      padding: 0 calc(var(--ratio) * 132px);
+    }
+    .session__more {
+      padding: 0 calc(var(--ratio) * 132px);
+    }
+    .session__img {
+      width: calc(var(--ratio) * 320px);
+      height: calc(var(--ratio) * 349px);
+    }
+    .session__more__card {
+      display: block;
+    }
+    .session__more__card__item {
+      margin-top: unset;
+      margin: unset;
+    }
+    .session__more__content {
+      width: unset !important;
+    }
+    .session__content__title,
+    .banner__left__content {
+      font-size: 16px;
+    }
+    .footer__top__children__content li {
+      font-size: 10px;
+    }
+    .header__content__item__button__text__outline {
+      margin-left: unset;
+      margin-top: 10px;
+    }
+    .footer__top {
+      margin: 0 calc(var(--ratio) * 132px);
+      display: block;
+      /* width: 100%; */
+    }
+    .footer__top__children__title {
+      margin-top: 30px;
+    }
+    .footer__bottom {
+      padding: 25px calc(var(--ratio) * 132px);
+    }
+  }
+  
