@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background-color: #FFF2F3;
+    padding: calc(var(--ratio) * 16px) 0;
+    height: calc(var(--ratio) * 60px);
+  }
+  .header__content{
+    margin: 0 calc(var(--ratio) * 59px);
+    display: flex;
+    align-items: center;
+    padding:0 calc(var(--ratio) * 195px) ;
+  }
+.header__content__title{
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    padding: 13px 0;
+    width:calc(var(--ratio) * 187px) ;
+    margin-right:calc(var(--ratio) * 41px) ;
+
+}
+.row__header, .header__content__item, .header__content__item__nav ,.header__content__item__button{
+    display: flex;
+}
+.header__content__item__nav__text{
+    padding: 17px 0;
+}
+.header__content__item__nav{
+    margin-right: calc(var(--ratio) * 240px);
+}
+.header__content__item__nav__text{
+    margin-right:calc(var(--ratio) * 16px) ;
+}
+.header__content__item__nav__text:last-child{
+    margin-right:0;
+}
+.header__content__item__button__text{
+    color: #96BB7C;
+    padding: 17px 0;
+    margin-right: calc(var(--ratio) * 45px);
+}
+.header__content__item__button__join{
+    height: calc(var(--ratio) * 52px) ; 
+    width: calc(var(--ratio) * 137px) ;
+    background-color: #96BB7C;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+.banner{
+    height: calc(var(--ratio) * 682px);
+    background-color: #FFF2F3;
+    padding-left: calc(var(--ratio) * 132px) ;
+    display: flex;
+    overflow: hidden;
+
+}
+.banner__left__text{
+    color:#96BB7C;
+    padding-top: calc(var(--ratio) * 148px);
+    margin-bottom:calc(var(--ratio) * 30px); 
+    
+
+}
+.banner__left__footer{
+    color: #737373
+;
+}
+.banner__left__content{
+    color: #252B42;
+    font-size: 58px;
+    font-weight: 700;
+    margin-bottom:calc(var(--ratio) * 30px); 
+
+}
+.banner__left__footer{
+    margin-bottom:calc(var(--ratio) * 30px); 
+}
+.banner__right__image{
+    width: calc(var(--ratio) * 682px);
+    height: calc(var(--ratio) * 704px);
+    object-fit: cover;
+}
+.header__content__item__button__text__outline{
+    color: #96BB7C;
+    background-color: transparent;
+    height: calc(var(--ratio) * 52px) ; 
+    width: calc(var(--ratio) * 137px) ;
+    border-radius: 5px;
+    border: 1px solid #96BB7C;
+    margin-left: 10px;
+}
